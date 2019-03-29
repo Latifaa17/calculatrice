@@ -10,25 +10,25 @@
         <div id="d1"  >
             <form name="form1">
                 <input type="text" name="val" id="txt" class="form-control" readonly/>          
-                <input type="button" name="bt_c" value="C"  id="c" class="btn btn-danger"/>
-                <input type="button" name="bt_div" value="/"  class="b btn btn-info"/>
-                <input type="button" name="bt_7" value="7"  class="b btn btn-secondary"/>
-                <input type="button" name="bt_8" value="8"  class="b btn btn-secondary"/>
-                <input type="button" name="bt_9" value="9"  class="b btn btn-secondary"/>
+                <input type="button" name="bt_c" value="C"  id="c" class="btn btn-danger" />
+                <input type="button" name="bt_div" value="/"  class="b btn btn-info" />
+                <input type="button" name="bt_7" value="7"  class="b btn btn-secondary" onclick="ajouter(7);"/>
+                <input type="button" name="bt_8" value="8"  class="b btn btn-secondary" onclick="ajouter(8);"/>
+                <input type="button" name="bt_9" value="9"  class="b btn btn-secondary" onclick="ajouter(9);"/>
                 <input type="button" name="bt_mult" value="*"  class="b btn btn-info"/>
-                <input type="button" name="bt_4" value="4"  class="b btn btn-secondary"/>
-                <input type="button" name="bt_5" value="5"  class="b btn btn-secondary"/>
-                <input type="button" name="bt_6" value="6"  class="b btn btn-secondary"/>
+                <input type="button" name="bt_4" value="4"  class="b btn btn-secondary" onclick="ajouter(4);"/>
+                <input type="button" name="bt_5" value="5"  class="b btn btn-secondary" onclick="ajouter(5);"/>
+                <input type="button" name="bt_6" value="6"  class="b btn btn-secondary" onclick="ajouter(6);"/>
                 <input type="button" name="bt_sous" value="-"  class="b btn btn-info"/>
-                <input type="button" name="bt_1" value="1"  class="b btn btn-secondary"/>
-                <input type="button" name="bt_2" value="2"  class="b btn btn-secondary"/>
-                <input type="button" name="bt_3" value="3"  class="b btn btn-secondary"/>
+                <input type="button" name="bt_1" value="1"  class="b btn btn-secondary" onclick="ajouter(1);"/>
+                <input type="button" name="bt_2" value="2"  class="b btn btn-secondary" onclick="ajouter(2);"/>
+                <input type="button" name="bt_3" value="3"  class="b btn btn-secondary" onclick="ajouter(3);"/>
                 <input type="button" name="bt_add" value="+"  class="b btn btn-info"/>
-                <input type="button" name="bt_0" value="0"  class="b btn btn-secondary"/>
-                <input type="button" name="bt_vir" value="."  class="b btn btn-secondary"/>
+                <input type="button" name="bt_0" value="0"  class="b btn btn-secondary" onclick="ajouter(0);"/>
+                <input type="button" name="bt_vir" value="."  class="b btn btn-secondary" onclick="ajouter('.');"/>
                 <input type="button" name="bt_equal" value="="  class=" btn btn-info" id="egal"/>
             </form>
         </div>
-
+    <script src="../JS/calcul.js"></script>
     </body>
 </html>
